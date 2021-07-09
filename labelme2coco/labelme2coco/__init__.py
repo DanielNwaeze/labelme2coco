@@ -2,7 +2,7 @@ from __future__ import absolute_import
 
 __version__ = "0.1.2"
 
-import labelme2coco
+from labelme2coco.labelme2coco import labelme2coco
 
 
 def convert(labelme_folder: str, save_json_path: str):
